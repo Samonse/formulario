@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title> Mi primer formulario</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="form">
+     <form action= "guardar.php" method="POST">
+        <p>Nombre</p>
+        <label for="nombre">Su nombre es</label>
+        <br>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <p>Correo</p>
+        <label for="Correo">Dirección de correo</label> 
+        <br>
+        <input type="email" name="correo" placeholder="alguien@algo.com" required>
+        <p>Mensaje</p>
+        <label for="mensaje"> Su mensaje</label>    
+        <br>
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+     </from>
+    </div>
+</body>
+</html>
